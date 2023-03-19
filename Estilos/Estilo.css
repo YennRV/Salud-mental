@@ -1,0 +1,109 @@
+body {
+    font-family: 'Josefin Sans', sans-serif; /* fuente */
+    background:white; /* color dde fondo */
+    max-width: 900px;/* ancho máximo */
+    margin: 0 auto; /* margen */
+}
+
+nav{
+    width: 100%;  /* alto */
+    height: 100px;  /* ancho */
+    background-color:teal /* color */ 
+}
+
+nav ul li{
+list-style-type: none;
+display:inline-block;
+transition: 10.s all;
+padding: 18px 20px;
+}
+
+nav ul li :hover{ /* cambio de color */
+   background-color: white;
+}
+.img-logo{
+    width: 200px;
+    padding: 100x;
+
+}
+
+nav ul{
+  
+    display: inline-flex;
+    position: relative;
+    top: -50px;
+}
+nav ul li a{
+    text-decoration: none; /* decoracion de texto */
+    color: black; /* color de letra */
+}
+h1, h2, h3, h4, figure, ul: {
+    margin: 0%;
+}
+
+img{
+max-width: 160px;
+} /* pendiente */
+
+/* SECCION 1 */
+
+.seccion1{
+    background-color:rgb(223, 233, 235); /* color de fondo */
+
+}
+
+.video{
+    width: 100%;
+    padding: 20px;
+}
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+article{
+    padding: 30px;
+    background-color:rgb(223, 233, 235);
+
+}
+
+article h1{
+border-bottom: 1px solid black;
+
+}
+
+.texto,.video{display: inline-block;
+}
+
+section{
+    background-color:rgb(223, 233, 235);
+    padding: 15px;
+
+
+}
+section h2,h1,h3,h4 {
+    border-bottom: 1px solid black;
+}
+/* ARITUCULO */
+.img-art {
+    max-width: 100%;
+
+}
+.cont-art{
+    width: 740;
+    vertical-align: top;
+
+}
+
+footer{
+    background-color:rgb(147, 167, 172);
+    color: black;
+    line-height: 30px;
+    text-align:center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+}

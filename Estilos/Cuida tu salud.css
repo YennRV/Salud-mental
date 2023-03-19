@@ -1,0 +1,77 @@
+body {
+    font-family: 'Josefin Sans', sans-serif; /* fuente */
+    background:white; /* color dde fondo */
+    max-width: 900px;/* ancho máximo */
+    margin: 0 auto; /* margen */
+}
+nav{
+    width: 100%; /* alto */
+    height: 160px;/* ancho */
+    background-color:white/* color */
+}
+
+nav ul li{
+list-style-type: none;
+display:inline-block;
+transition: 10.s all;
+padding: 18px 20px;
+}
+
+nav ul li :hover{ /* cambio de color */
+   background-color: white;
+}
+.img-logo{
+    width: 200px;
+    padding: 100x;
+
+}
+
+nav ul{
+  
+    display: inline-flex;
+    position: relative;
+    top: -50px;
+}
+nav ul li a{
+    text-decoration: none; /* decoracion de texto */
+    color: black; /* color de letra */
+}
+h1, h2, h3, h4, figure, ul {
+    margin: 10%;
+}
+
+img{
+max-width: 160px;
+} /* pendiente */
+
+/* SECCION 1 */
+
+.seccion1{
+    background-color:rgb(223, 233, 235); /* color de fondo */
+
+}
+
+
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+
+section{
+    background-color:rgb(223, 233, 235);
+    padding: 15px;
+
+
+}
+section h2,h1,h3,h4 {
+    border-bottom: 1px solid black;
+}
+/* ARITUCULO */
+.img-art {
+    max-width: 400%;
+
+}
+
+
